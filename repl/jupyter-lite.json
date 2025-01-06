@@ -1,11 +1,14 @@
 {
-    "jupyter-lite-schema-version": 0,
-    "jupyter-config-data": {
-      "disabledExtensions": [
-        "@jupyterlab/drawio-extension",
-        "jupyterlab-kernel-spy",
-        "jupyterlab-tour"
-      ]
+  "jupyter-lite-schema-version": 0,
+  "jupyter-config-data": {
+    "appName": "JupyterLite Pyodide Kernel",
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "loadPyodideOptions": {
+          "packages": ["matplotlib", "micropip", "polars", "duckdb", "numpy", "sqlite3", "ssl"],
+          "lockFileURL": "https://cdn.jsdelivr.net/pyodide/v0.27.0/full/pyodide-lock.json?from-lite-config=1"
+        }
+      }
     }
   }
-  
+}
