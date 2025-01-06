@@ -5,7 +5,7 @@
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
         "loadPyodideOptions": {
-          "packages": ["matplotlib", "micropip", "polars", "duckdb", "yfinance, "numpy", "sqlite3", "ssl"],
+          "packages": ["matplotlib", "micropip", "polars", "pyarrow", "duckdb", "yfinance", "numpy", "sqlite3", "ssl"],
           "lockFileURL": "https://cdn.jsdelivr.net/pyodide/v0.27.0/full/pyodide-lock.json?from-lite-config=1"
         }
       }
