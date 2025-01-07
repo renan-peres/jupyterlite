@@ -7,7 +7,8 @@ notebook~=7.2.2
 jupyterlite-pyodide-kernel==0.4.7
 
 # R kernel (WebR)
-pip install git+https://github.com/r-wasm/jupyterlite-webr-kernel.git
+# Use the format suitable for requirements.txt
+git+https://github.com/r-wasm/jupyterlite-webr-kernel.git#egg=jupyterlite-webr-kernel
 
 # JavaScript kernel (optional)
 jupyterlite-javascript-kernel==0.3.0
