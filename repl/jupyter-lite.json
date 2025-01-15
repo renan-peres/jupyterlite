@@ -10,5 +10,8 @@
         }
       }
     }
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.1.3-alpha.8"
   }
 }
