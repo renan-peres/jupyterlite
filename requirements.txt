@@ -1,6 +1,6 @@
 # Core modules (mandatory)
 jupyterlite-core==0.6.0a0
-jupyterlab~=4.4.0
+jupyterlab~=4.4.0a3
 notebook~=7.4.0
 
 # Python kernel (Pyodide)
